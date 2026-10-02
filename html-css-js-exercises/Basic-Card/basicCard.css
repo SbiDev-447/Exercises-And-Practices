@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "ArchivoBlack";
+  font-weight: 400;
+  font-style: normal;
+  src:
+    local("ArchivoBlack"),
+    url("/fonts/ArchivoBlack.woff2") format("woff2"),
+    url("/fonts/ArchivoBlack.woff") format("woff"),
+    url("/fonts/ArchivoBlack.ttf") format("truetype");
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: "Arial Narrow";
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  background: linear-gradient(45deg, yellow, orange, orangered);
+}
+
+.basicCard {
+  width: 450px;
+  height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  box-shadow: inset 0px -5px 24px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+#background {
+  width: auto;
+  height: 200px;
+  display: block;
+  border-bottom: 5px solid violet;
+  box-shadow: 0px 2px 10px violet;
+}
+
+#name {
+  font-family: ArchivoBlack;
+  padding: 50px 0px 5px;
+  margin-bottom: -5px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#direction {
+  color: #a05d5d;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#avatar-icon {
+  position: absolute;
+  bottom: 380px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid violet;
+  overflow: hidden;
+  z-index: 2;
+}
+
+#description-card {
+  max-height: 102px;
+  padding: 0px 40px;
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  color: #888888;
+}
+
+#follow-button {
+  width: 100px;
+  height: 45px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 2px solid dodgerblue;
+  background: #ffffff;
+  display: flex;
+  align-self: center;
+  font-size: 0.9rem;
+  color: dodgerblue;
+}
+
+#follow-button:hover {
+  background: dodgerblue;
+  color: #ffffff;
+}
+
+#follow-button:active {
+  background: #219ff1;
+  color: #ffffff;
+  border-color: #219ff1;
+}
+
+#stadistics-in-card {
+  display: flex;
+  border-top: 1px solid #ababab;
+  justify-self: flex-end;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+
+.box-stadistic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  color: #888888;
+}
+
+.box-stadistic .label {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+#box-border {
+  border-right: 1px solid #ababab;
+}
+
+.box-stadistic .number {
+  color: black;
+  font-size: 1.1rem;
+}
