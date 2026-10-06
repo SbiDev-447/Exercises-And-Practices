@@ -1,4 +1,8 @@
-[README](./README.md) [DOCUMENTACIÓN & LINKS](./DOCS.md)
+<div align="center">
+
+**[DOCUMENTACIÓN & LINKS](./DOCS.md)**
+
+</div>
 
 #### Hello Everyone, This folder contains solved exercises in c++, in this file i write the problems for you practice, please don't open the files resolved until after the try resolve for you way.
 
