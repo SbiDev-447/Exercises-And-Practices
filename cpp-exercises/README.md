@@ -4,11 +4,17 @@
 
 ## 🔥 List of Exercises - Lista de ejercicios 🔥
 
-1. Hello World!
+01. Hello World!
 
-Compile the classic first exercise "Hello World!", The program output is for terminal.
-Compila el clásico primer ejercicio "¡Hola Mundo!", La Salida del programa debe ser por la terminal.
+> Dificultad: Fácil
 
----
+- Compile the classic first exercise "Hello World!", The program output is for terminal.
+- Compila el clásico primer ejercicio "¡Hola Mundo!", La Salida del programa
+debe ser por la terminal.
 
-2. 
+02. Media Notas
+
+> Dificultad: 
+
+- Realice un programa que calcule la media de 10 notas, diga cuantas de ellas
+son mayores a la media y cuantas son menores.
